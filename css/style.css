@@ -1,0 +1,129 @@
+
+
+/*模块需要的样式*/
+
+#info span{
+    margin-left: 0.1rem;
+}
+
+
+/*下滑菜单css样式 开始*/
+#menu .fir li ul{
+    display: none;
+}
+#menu .fir li ul.cur{
+    display: block;
+    background: transparent;
+}
+#menu .fir li ul.dul{
+    display: none;
+}
+#menu>ul>li{
+    width: 1.8rem;
+    height: auto;
+    margin-top: 0.1rem;
+    background: rgba(255,255,255,.3);
+    border: 0.001rem solid rgba(255,255,255,.5);
+    text-align: center;
+    font-size: 0.14rem;
+}
+#menu>ul>li:first-child{
+    margin-top: 0;
+}
+/*#menu>ul>li>ul>li{
+    background: lime;
+}*/
+#menu ul li{
+    cursor: pointer;
+}
+/*下滑菜单css样式 结束*/
+
+body,html{
+    background: rgb(11,29,51);
+    color: #fff;
+}
+.info{
+    border: 1px solid #ccc;
+    padding: 0.1rem;
+}
+.header{
+    width: 100%;
+    height: 0.55rem;
+}
+.header ul{
+    float: right;
+}
+.header ul li{
+    float: left;
+    font-size: 0.14rem;
+    height: 0.25rem;
+    margin-top: 0.15rem;
+    line-height: 0.25rem;
+    margin-left: 0.1rem;
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 0 0.1rem;
+    border-radius: 0.1rem;
+    background: rgba(255,255,255,.3);
+    cursor: pointer;
+}
+.header ul li:hover{
+    background: transparent;
+}
+
+.con{
+    margin-top: 0.7rem;
+}
+.con .con_left{
+    width: 30%;
+    height: 5rem;
+    float: left;
+}
+.con .con_right{
+    width: 70%;
+    height: 5rem;
+    float: right;
+}
+.con .con_left #menu li:hover{
+    background: transparent;
+}
+.con .con_right .header img{
+    width: 8.34rem;
+    height: 0.37rem;
+}
+.con .con_right .btn ul li{
+    float: left;
+}
+.con .con_right .btn ul li img{
+    height: 0.23rem;
+}
+.con .con_right .btn ul li:nth-child(1) img{
+     width: 0.74rem;
+}
+.con .con_right .btn ul li:nth-child(2) img{
+    width: 0.96rem;
+}
+.con .con_right .btn ul li:nth-child(3) img{
+    width: 0.77rem;
+}
+.con .con_right .btn ul li:nth-child(4) img{
+    width: 0.74rem;
+}
+.con .con_right .btn ul li:nth-child(5) img{
+    width: 0.76rem;
+}
+.con .con_right .btn ul li:nth-child(6) img{
+     width: 0.99rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
